@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ebfd40-2372-4eeb-8fe0-333ae3b6e27d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bis.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/biz.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/biz.css" afterPath="$PROJECT_DIR$/assets/biz.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/jspdf.debug.js" afterPath="$PROJECT_DIR$/dist/jspdf.debug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/jspdf.node.debug.js" afterPath="$PROJECT_DIR$/dist/jspdf.node.debug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bis.css" afterPath="$PROJECT_DIR$/assets/bis.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bis.js" afterPath="$PROJECT_DIR$/assets/bis.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +18,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="330">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -35,11 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bis.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bis.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/bis.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="247">
+              <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bis.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/bis.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -66,7 +72,12 @@
       <find>/assets</find>
       <find>245</find>
       <find>biz</find>
+      <find>su</find>
+      <find>&quot;&quot;</find>
       <find>input</find>
+      <find>name</find>
+      <find>2</find>
+      <find>aa</find>
     </findStrings>
     <replaceStrings>
       <replace>assets</replace>
@@ -80,8 +91,9 @@
       <list>
         <option value="$PROJECT_DIR$/assets/biz.js" />
         <option value="$PROJECT_DIR$/assets/biz.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/bis.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/bis.js" />
       </list>
     </option>
   </component>
@@ -175,12 +187,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549722956217</updated>
-      <workItem from="1549722959215" duration="3021000" />
+      <workItem from="1549722959215" duration="5004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3021000" />
+    <option name="totallyTimeSpent" value="5004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1375" height="877" extended-state="6" />
@@ -234,8 +246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="330">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -248,8 +260,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/bis.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="247">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
           <folding />
         </state>
       </provider>

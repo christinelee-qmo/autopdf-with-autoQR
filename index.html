@@ -26,10 +26,12 @@
                 <input type="text" id="name" value="" name="name" placeholder="例)マルマル株式会社" required/>
             </div>
             <div id="qrcode"></div>
-            <input type="url" id="surl" value="s" placeholder="例)https://bit.ly/akshd" name="qrlink" required/>
+            <input type="url" id="surl" value="" placeholder="例)https://bit.ly/akshd" name="qrlink" required/>
 
 
-            <input type="submit" id="button" class="hide" value="submit"/>
+            <button type="submit" id="button" class="hide" value="submit">
+                <img src="assets/img/download.png">
+            </button>
         </form>
     </div>
 
@@ -48,11 +50,6 @@
         }
     });
 
-    $(window).ready(function () {
-        if ($('#surl').val() != "") {
-            $('#button').removeClass('hide')
-        }
-    });
 </script>
 
 <!-- Code editor -->
