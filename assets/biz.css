@@ -1,0 +1,19 @@
+body {
+	background: aliceblue;
+}
+.card {
+	background:url("img/card.png");
+	height: 530px;
+	width: 375px;
+	display: block;
+	background-repeat: none;
+	margin: 0 auto;
+	border-radius: 16px;
+	padding: 16px 16px 52px;
+	position: relative;
+	box-shadow: 0 17px 60px #9ed1ea;
+	box-sizing: border-box;
+}
+.hide {
+	opacity: 0;
+}
