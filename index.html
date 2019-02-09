@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="LeeChinwen">
 
-    <link rel="stylesheet" type="text/css" href="assets/biz.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/bis.css"/>
 </head>
 
 <body>
@@ -23,20 +23,13 @@
         <img alt="" style="position: absolute;top: 247px;right: -100px;" src="assets/img/qr.png">
         <form style="display: flex;flex-direction: column;height: 100%;">
             <div style="flex-grow: 1">
-                <input type="text" id="name" value="" name="name" placeholder="例)マルマル株式会社"
-                       style="width: 100%;height: 1.8em;font-size: 24px;text-align: center;border-radius: 999px;box-shadow: none;border: 4px solid #dedede"/>
+                <input type="text" id="name" value="" name="name" placeholder="例)マルマル株式会社" required/>
             </div>
-            <div id="qrcode"
-                 style="display: block;width: 120px;margin-left: calc(100% - 120px);margin-bottom: 10px"></div>
-            <input type="text" id="surl" value="s" placeholder="例)https://bit.ly/akshd" name="qrlink"
-                   style="width: 100%;height: 1.8em;font-size: 24px;text-align: center;border-radius: 999px;box-shadow: none;border: 4px solid #dedede"/>
+            <div id="qrcode"></div>
+            <input type="url" id="surl" value="s" placeholder="例)https://bit.ly/akshd" name="qrlink" required/>
 
 
-            <input type="submit" id="button" class="hide" value="submit"
-                   style="width: 80px;height: 80px;padding: 13px 15px;background: #01e2b9;border-radius: 999px;position: absolute;bottom: -40px;left: 50%;transform: translateX(-50%);box-shadow: 0 10px 20px rgba(1, 226, 185, 0.38);box-sizing: border-box;">
-            <img alt="ダウンロード" width="50" height="50"
-                 src="assets/img/download.png">
-            </input>
+            <input type="submit" id="button" class="hide" value="submit"/>
         </form>
     </div>
 
@@ -70,6 +63,6 @@
 
 <!-- Scripts in development mode -->
 <script type="text/javascript" src="dist/jspdf.debug.js"></script>
-<script type="text/javascript" src="assets/biz.js"></script>
+<script type="text/javascript" src="assets/bis.js"></script>
 </body>
 </html>

@@ -3854,7 +3854,7 @@ window.tmp = jsPDF;
           firstWordInLine = lastWordInLine + 1;
           lineCount++;
           lastLine = "";
-          continue Line;
+
         }
       }
 
@@ -4376,7 +4376,7 @@ window.tmp = jsPDF;
         if (_Kids.length > 0) {
           return _Kids;
         } else {
-          return;
+
         }
       }
     });
@@ -5491,7 +5491,7 @@ window.tmp = jsPDF;
           return result.join('\n');
         }
 
-        return;
+
       },
       set: function set(value) {
         if (_typeof(value) === "object") {
@@ -16227,7 +16227,7 @@ function JPEGEncoder(quality) {
   function computeHuffmanTbl(nrcodes, std_table) {
     var codevalue = 0;
     var pos_in_table = 0;
-    var HT = new Array();
+    var HT = [];
 
     for (var k = 1; k <= 16; k++) {
       for (var j = 1; j <= nrcodes[k]; j++) {
@@ -16726,7 +16726,7 @@ function JPEGEncoder(quality) {
     var time_start = new Date().getTime();
     if (quality) setQuality(quality); // Initialize bit writer
 
-    byteout = new Array();
+    byteout = [];
     bytenew = 0;
     bytepos = 7; // Add JPEG headers
 
@@ -21708,7 +21708,7 @@ window.tmp = BmpDecoder;
         }
       }
 
-      return;
+
     }
 
     PNG.prototype.read = function (bytes) {
