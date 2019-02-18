@@ -6,18 +6,29 @@ function pdfdownload() {
     var name = $('#name').val();
     var title = name + " 従業員様限定";
     var surl = $('#surl').val();
+    
+
     doc.addFileToVFS("Koharuiro.ttf", Koharuiro);
     doc.addFont('Koharuiro.ttf', 'Koharuiro', 'Regular');
-    doc.setFont('Koharuiro', 'Regular'); // set font
-    doc.setFontSize(21);
+    doc.setFont('Koharuiro', 'Regular');
     doc.setTextColor(255, 255, 255);
-    doc.text(title, 105, 11.789, null, null, 'center');
+    var titlelength = charcount(name);
+    if( titlelength <= 26){
+        doc.setFontSize(29);
+        doc.text(title, 105, 12.789, null, null, 'center');
+    }
+    else if( titlelength > 26){
+        doc.setFontSize(22);
+        doc.text(title, 105, 11.789, null, null, 'center');
+    }
+    
+
     doc.setFontSize(21);
     doc.setTextColor(0, 0, 0);
     doc.text(name, 105, 254.014, null, null, 'center');
     doc.addFileToVFS("AndaleMono.ttf", AndaleMono);
     doc.addFont('AndaleMono.ttf', 'AndaleMono', 'Regular');
-    doc.setFont('AndaleMono', 'Regular'); // set font
+    doc.setFont('AndaleMono', 'Regular'); 
     doc.setFontSize(16);
     doc.text(surl, 77.66, 273.802, null, null, 'center');
     doc.save(name);
